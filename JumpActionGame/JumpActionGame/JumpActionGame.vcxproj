@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e153e7eb-4ec9-438e-8fb8-335e088d8f7d}</ProjectGuid>
+    <RootNamespace>JumpActionGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyDll.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JumpActionGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\스프라이트\비트맵\ClemHp.bmp" />
+    <Image Include="Arrow.bmp" />
+    <Image Include="BackGround1.bmp" />
+    <Image Include="BackGround2.bmp" />
+    <Image Include="BackGround3.bmp" />
+    <Image Include="BackGround4.bmp" />
+    <Image Include="BackGruond5.bmp" />
+    <Image Include="BackPack.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="EnergyBack.bmp" />
+    <Image Include="Energy.bmp" />
+    <Image Include="BlueAttack.bmp" />
+    <Image Include="BlueAttack2.bmp" />
+    <Image Include="BlueDie.bmp" />
+    <Image Include="BlueDie2.bmp" />
+    <Image Include="BlueHp.bmp" />
+    <Image Include="BlueIdle.bmp" />
+    <Image Include="BlueIdle2.bmp" />
+    <Image Include="BlueJump.bmp" />
+    <Image Include="BlueJump2.bmp" />
+    <Image Include="BlueWalking.bmp" />
+    <Image Include="BlueWalking2.bmp" />
+    <Image Include="Box.bmp" />
+    <Image Include="Bullet.bmp" />
+    <Image Include="Can.bmp" />
+    <Image Include="Caught.bmp" />
+    <Image Include="Caught2.bmp" />
+    <Image Include="Clear.bmp" />
+    <Image Include="Clem.bmp" />
+    <Image Include="Clem2.bmp" />
+    <Image Include="ClemDie.bmp" />
+    <Image Include="ClemDie2.bmp" />
+    <Image Include="ClemHp.bmp" />
+    <Image Include="ClemJump.bmp" />
+    <Image Include="ClemJump2.bmp" />
+    <Image Include="ClemSlowWalking.bmp" />
+    <Image Include="ClemSlowWalking2.bmp" />
+    <Image Include="ClemWalking.bmp" />
+    <Image Include="ClemWalking2.bmp" />
+    <Image Include="CounterAttack.bmp" />
+    <Image Include="CounterAttack2.bmp" />
+    <Image Include="Dead.bmp" />
+    <Image Include="Door.bmp" />
+    <Image Include="Fog.bmp" />
+    <Image Include="FoodBlueSelect.bmp" />
+    <Image Include="FoodBlueSelect2.bmp" />
+    <Image Include="FoodClemSelect.bmp" />
+    <Image Include="FoodClemSelect2.bmp" />
+    <Image Include="Gun.bmp" />
+    <Image Include="Interface.bmp" />
+    <Image Include="ItemBullet.bmp" />
+    <Image Include="Itemcan.bmp" />
+    <Image Include="ItemGun.bmp" />
+    <Image Include="ItemKey.bmp" />
+    <Image Include="ItemStick.bmp" />
+    <Image Include="Key.bmp" />
+    <Image Include="Land.bmp" />
+    <Image Include="Land2.bmp" />
+    <Image Include="Lobby.bmp" />
+    <Image Include="NewDoor.bmp" />
+    <Image Include="Open.bmp" />
+    <Image Include="OpenBox.bmp" />
+    <Image Include="OpenDoor.bmp" />
+    <Image Include="OpenNewDoor.bmp" />
+    <Image Include="OpenWardrobe.bmp" />
+    <Image Include="Pillar.bmp" />
+    <Image Include="Road.bmp" />
+    <Image Include="Rooftop.bmp" />
+    <Image Include="Shot.bmp" />
+    <Image Include="Shot2.bmp" />
+    <Image Include="ShotBullet.bmp" />
+    <Image Include="SmallFog.bmp" />
+    <Image Include="SoloInterface.bmp" />
+    <Image Include="Stick.bmp" />
+    <Image Include="Stone.bmp" />
+    <Image Include="SuddenAttack.bmp" />
+    <Image Include="SuddenAttack2.bmp" />
+    <Image Include="Swtich.bmp" />
+    <Image Include="TextBox.bmp" />
+    <Image Include="TextBox2.bmp" />
+    <Image Include="WalkerDie.bmp" />
+    <Image Include="WalkerDie2.bmp" />
+    <Image Include="WalkerDie2R.bmp" />
+    <Image Include="WalkerDieR.bmp" />
+    <Image Include="WalkerGunDie.bmp" />
+    <Image Include="WalkerGunDie2.bmp" />
+    <Image Include="Wardrobe.bmp" />
+    <Image Include="Zombie.bmp" />
+    <Image Include="Zombie2.bmp" />
+    <Image Include="ZombieWalking.bmp" />
+    <Image Include="ZombieWalking2.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

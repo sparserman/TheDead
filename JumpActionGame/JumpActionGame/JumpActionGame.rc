@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "BackGround1.bmp"
+
+IDB_BITMAP3             BITMAP                  "Clem.bmp"
+
+IDB_BITMAP4             BITMAP                  "Clem2.bmp"
+
+IDB_BITMAP5             BITMAP                  "ClemWalking.bmp"
+
+IDB_BITMAP6             BITMAP                  "ClemWalking2.bmp"
+
+IDB_BITMAP7             BITMAP                  "ClemJump.bmp"
+
+IDB_BITMAP8             BITMAP                  "ClemJump2.bmp"
+
+IDB_BITMAP9             BITMAP                  "Fog.bmp"
+
+IDB_BITMAP10            BITMAP                  "Land.bmp"
+
+IDB_BITMAP11            BITMAP                  "ClemSlowWalking.bmp"
+
+IDB_BITMAP12            BITMAP                  "ClemSlowWalking2.bmp"
+
+IDB_BITMAP13            BITMAP                  "Zombie.bmp"
+
+IDB_BITMAP14            BITMAP                  "Zombie2.bmp"
+
+IDB_BITMAP15            BITMAP                  "ZombieWalking.bmp"
+
+IDB_BITMAP16            BITMAP                  "ZombieWalking2.bmp"
+
+IDB_BITMAP17            BITMAP                  "SuddenAttack.bmp"
+
+IDB_BITMAP18            BITMAP                  "SuddenAttack2.bmp"
+
+IDB_BITMAP19            BITMAP                  "Caught.bmp"
+
+IDB_BITMAP20            BITMAP                  "Caught2.bmp"
+
+IDB_BITMAP21            BITMAP                  "CounterAttack.bmp"
+
+IDB_BITMAP22            BITMAP                  "CounterAttack2.bmp"
+
+IDB_BITMAP23            BITMAP                  "ClemDie.bmp"
+
+IDB_BITMAP24            BITMAP                  "ClemDie2.bmp"
+
+IDB_BITMAP25            BITMAP                  "Stick.bmp"
+
+IDB_BITMAP26            BITMAP                  "BackPack.bmp"
+
+IDB_BITMAP27            BITMAP                  "ItemStick.bmp"
+
+IDB_BITMAP28            BITMAP                  "WalkerDie.bmp"
+
+IDB_BITMAP29            BITMAP                  "WalkerDie2.bmp"
+
+IDB_BITMAP30            BITMAP                  "WalkerDie2R.bmp"
+
+IDB_BITMAP31            BITMAP                  "WalkerDieR.bmp"
+
+IDB_BITMAP32            BITMAP                  "Door.bmp"
+
+IDB_BITMAP33            BITMAP                  "Open.bmp"
+
+IDB_BITMAP34            BITMAP                  "Shot.bmp"
+
+IDB_BITMAP35            BITMAP                  "Shot2.bmp"
+
+IDB_BITMAP36            BITMAP                  "OpenDoor.bmp"
+
+IDB_BITMAP37            BITMAP                  "Lobby.bmp"
+
+IDB_BITMAP38            BITMAP                  "TextBox.bmp"
+
+IDB_BITMAP39            BITMAP                  "Key.bmp"
+
+IDB_BITMAP40            BITMAP                  "ItemKey.bmp"
+
+IDB_BITMAP41            BITMAP                  "Arrow.bmp"
+
+IDB_BITMAP42            BITMAP                  "BackGround2.bmp"
+
+IDB_BITMAP43            BITMAP                  "Gun.bmp"
+
+IDB_BITMAP44            BITMAP                  "ItemGun.bmp"
+
+IDB_BITMAP45            BITMAP                  "Bullet.bmp"
+
+IDB_BITMAP46            BITMAP                  "ItemBullet.bmp"
+
+IDB_BITMAP47            BITMAP                  "WalkerGunDie.bmp"
+
+IDB_BITMAP48            BITMAP                  "WalkerGunDie2.bmp"
+
+IDB_BITMAP49            BITMAP                  "ShotBullet.bmp"
+
+IDB_BITMAP50            BITMAP                  "Land2.bmp"
+
+IDB_BITMAP51            BITMAP                  "Clear.bmp"
+
+IDB_BITMAP52            BITMAP                  "Dead.bmp"
+
+IDB_BITMAP53            BITMAP                  "Pillar.bmp"
+
+IDB_BITMAP54            BITMAP                  "Stone.bmp"
+
+IDB_BITMAP55            BITMAP                  "ClemHp.bmp"
+
+IDB_BITMAP56            BITMAP                  "BlueAttack.bmp"
+
+IDB_BITMAP57            BITMAP                  "BlueAttack2.bmp"
+
+IDB_BITMAP58            BITMAP                  "BlueIdle.bmp"
+
+IDB_BITMAP59            BITMAP                  "BlueIdle2.bmp"
+
+IDB_BITMAP60            BITMAP                  "BlueJump.bmp"
+
+IDB_BITMAP61            BITMAP                  "BlueJump2.bmp"
+
+IDB_BITMAP62            BITMAP                  "BlueWalking.bmp"
+
+IDB_BITMAP63            BITMAP                  "BlueWalking2.bmp"
+
+IDB_BITMAP64            BITMAP                  "BlueHp.bmp"
+
+IDB_BITMAP65            BITMAP                  "Interface.bmp"
+
+IDB_BITMAP66            BITMAP                  "SoloInterface.bmp"
+
+IDB_BITMAP67            BITMAP                  "BlueDie.bmp"
+
+IDB_BITMAP68            BITMAP                  "BlueDie2.bmp"
+
+IDB_BITMAP69            BITMAP                  "Can.bmp"
+
+IDB_BITMAP70            BITMAP                  "Itemcan.bmp"
+
+IDB_BITMAP71            BITMAP                  "FoodBlueSelect.bmp"
+
+IDB_BITMAP72            BITMAP                  "FoodBlueSelect2.bmp"
+
+IDB_BITMAP73            BITMAP                  "FoodClemSelect.bmp"
+
+IDB_BITMAP74            BITMAP                  "FoodClemSelect2.bmp"
+
+IDB_BITMAP75            BITMAP                  "TextBox2.bmp"
+
+IDB_BITMAP76            BITMAP                  "BackGround3.bmp"
+
+IDB_BITMAP77            BITMAP                  "BackGround4.bmp"
+
+IDB_BITMAP78            BITMAP                  "Road.bmp"
+
+IDB_BITMAP79            BITMAP                  "Rooftop.bmp"
+
+IDB_BITMAP80            BITMAP                  "Swtich.bmp"
+
+IDB_BITMAP81            BITMAP                  "Box.bmp"
+
+IDB_BITMAP82            BITMAP                  "OpenBox.bmp"
+
+IDB_BITMAP83            BITMAP                  "BackGruond5.bmp"
+
+IDB_BITMAP84            BITMAP                  "NewDoor.bmp"
+
+IDB_BITMAP85            BITMAP                  "OpenNewDoor.bmp"
+
+IDB_BITMAP86            BITMAP                  "OpenWardrobe.bmp"
+
+IDB_BITMAP87            BITMAP                  "Wardrobe.bmp"
+
+IDB_BITMAP88            BITMAP                  "SmallFog.bmp"
+
+IDB_BITMAP89            BITMAP                  "Energy.bmp"
+
+IDB_BITMAP90            BITMAP                  "EnergyBack.bmp"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

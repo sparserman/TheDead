@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyDll.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JumpActionGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackGround1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Clem.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Clem2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemWalking.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemWalking2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemJump.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemJump2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Fog.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Land.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemSlowWalking.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemSlowWalking2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Zombie.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Zombie2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ZombieWalking.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ZombieWalking2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SuddenAttack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SuddenAttack2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Caught.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Caught2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="CounterAttack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="CounterAttack2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemDie.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemDie2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Stick.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackPack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ItemStick.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerDie.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerDie2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerDie2R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerDieR.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Door.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Open.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Shot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Shot2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="OpenDoor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Lobby.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextBox.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Key.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ItemKey.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackGround2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Gun.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ItemGun.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bullet.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ItemBullet.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerGunDie.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WalkerGunDie2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ShotBullet.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Land2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Clear.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Dead.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Pillar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Stone.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\스프라이트\비트맵\ClemHp.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueAttack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueAttack2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueIdle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueIdle2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueJump.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueJump2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueWalking.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueWalking2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueHp.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ClemHp.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Interface.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SoloInterface.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueDie.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BlueDie2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Can.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Itemcan.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FoodBlueSelect.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FoodBlueSelect2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FoodClemSelect.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FoodClemSelect2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextBox2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackGround3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackGround4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Road.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Rooftop.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Swtich.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Box.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="OpenBox.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BackGruond5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="NewDoor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="OpenNewDoor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="OpenWardrobe.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Wardrobe.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SmallFog.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Energy.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="EnergyBack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
